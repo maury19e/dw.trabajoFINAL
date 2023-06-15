@@ -1,0 +1,378 @@
+p{
+    font-family: 'Geologica', sans-serif;
+}
+
+.envio{
+    font-size: 20px;
+    text-align: center;
+
+    color: #00a650;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.seccion-precio{
+    text-align: center;
+    color: #000000;
+    font-size:25px;
+    padding: 15px 0;
+    font-weight: bold;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/*barra de navegacion*/
+nav{
+    background-color:rgb(49, 26, 255);
+}
+nav a{
+    border: #000 1px;
+}
+.categ{
+    background-color: #00000000;
+    border: #00000000;
+}
+.navbar{
+    padding: 2rem;
+    background-color: rgb(49, 26, 255);
+    height: 70px;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.buscador{
+    align-items: center;
+    width: 440px;
+    background-color: white;
+    }
+.buscador input{
+    background-color: white;
+    border: 0;
+}
+.navbar-nav{
+    align-items: end;
+}
+.nav-item i{
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+    margin: 6px;
+}
+.dropdown-menu{
+    border-radius: 2%;
+    background-color: rgba(255, 255, 255);
+    transition: all 1s step-end;
+    -webkit-transition: all 1s step-end;
+    -moz-transition: all 1s step-end;
+    -ms-transition: all 1s step-end;
+    -o-transition: all 1s step-end;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+.dropdown-toggle{
+color: rgba(0, 0, 0, 0.384);
+}
+/* comprar*/
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+.experiencia .columna{
+    padding: 20px;
+    border-left: 1px solid #cecece4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.column-image{
+    align-self:start;
+    align-items: center;
+    height: auto;
+}
+.experiencia img{
+    padding:0px 0px 0px 0px;
+    width: 100%;    
+}
+
+
+.column-descri-producto{
+    height:auto;
+    text-align: start;
+}
+.column-descri-producto p{
+    height:100%;
+    align-self:start;
+    align-items: start;
+    font-family: 'Geologica', sans-serif
+}
+.corazon{
+    margin:-10px;
+    font-size: 25px;
+    
+}
+.descri-superior{
+    width: 230px;
+    font-size: 13px;
+    color: rgb(151, 151, 151);
+}
+.descri-envio{
+    align-items: center;
+    font-size: 16px;
+    color: #00a650;
+}
+.descri-envio i{
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.nom-producto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: start;
+    color: #000;
+    font-size: 20px;
+}
+.precio-producto{
+    font-size: 30px;
+    
+}
+.descuento{
+    color: #00a650;
+    padding: 10px 10px;
+    font-weight:bolder;
+}
+.list-group{
+    width: 100%;
+    padding: 10px;
+}
+.column-compra{
+    width: 100%;
+    padding: 20px;
+    border:2px solid #cecece60;
+}
+.boton-compra .form-select{
+    margin-bottom: 10px;
+}
+.boton-compra p{    
+    font-size: 20px;
+    font-weight:bold;
+}
+.d-grid button{
+    width: 250px;
+}
+.form-select{
+ width: 250px;
+}
+.formas-de-pago .descri-forma{
+    color: rgb(112, 112, 112);
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+.formas-de-pago p{
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+.formas-de-pago{
+    width: 100%;
+    margin-top: 10px;
+}
+.formas p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.img-pago{
+    align-items: center;
+}
+.img-pago img{
+    
+    padding-right: 10px;
+    height: 25px;
+    width: auto;
+}
+
+
+
+
+.ver-mas{ 
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.ver-mas h2{
+    text-align: start;
+    font-size: 26px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin:18px 14px 0px 0px;
+}
+.ver-mas a{
+    font-size: 16px;
+    margin: auto 0 0px 0;
+
+}
+
+.columno{
+    height: 500px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
+.card{
+    align-items: center;
+    height: 100%;
+}
+.card img{
+    border: 1px solid #00000010;
+    width: 80%;
+    height: 200px;
+}
+.card .row{
+    margin: inherit;
+    border-width: 10px;
+}
+.columno{
+    height: 440px;
+}
+.footer{
+    margin: 0;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:767px){
+    .icon{
+        display: none;
+    }
+    .descri-superior{
+        width: 300px;
+    }
+    .d-grid button{
+        width: 295px;
+    }
+    #state{
+        width: 295px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .d-grid button{
+        width: 185px;
+    }
+    #state{
+        width: 185px;
+    }
+    navbar-brand {
+        display: none;
+    }
+    .buscador{
+        width: 300px;
+        margin-block: 20px;
+    }
+    .navbar{
+        padding: 2rem;
+        background-color: rgb(49, 26, 255);
+        height: auto;
+    }
+    .experiencia .columna{
+        border: 0;
+    }
+    .categ{
+        padding-top:7px ;
+
+    }
+}
+
+
+@media screen  and (max-width:767px) {
+    .vistas-mini{
+        display: none;
+    }
+    .ver-mas{
+        margin-top: 0%;
+    }
+    .card{
+        border: #000;
+        width: 100%;
+        
+    }
+    .ver-mas h2{
+        
+        margin-left: 20px;
+    }
+    .col-imag{
+        padding-top: 25px;
+        width: 144px;
+        height: 165px;
+        align-items: center;
+    }
+    .col-imag img{
+        padding: auto;
+        width: 144px;
+        height: 144px;
+    }
+    .col-text{    
+        width: 216px;
+        height: 100%;}
+    .card-precio{
+        font-size: 17px;
+        color: #00a650;
+    }
+    .card-body{
+        width: 100%;
+        height: 100%;
+    }
+    .card-body .card-title{
+        
+     font-size: 20px;   
+    }
+    .card-body .card-text{
+        font-size: 14px;
+        width: 100%;
+    }
+    .seccion-precio{
+    text-align: start;
+    padding: 0%;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .datos{
+        padding: 15px;
+    }
+    .envio{
+        text-align: start;
+    }
+    
+}
+@media screen and (min-width:767px){
+    .icon{
+        display: none;
+    }
+    .card-vistas{
+        display: none;
+    }
+    
+    
+}
