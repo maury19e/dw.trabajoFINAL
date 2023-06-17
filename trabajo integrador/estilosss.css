@@ -20,18 +20,22 @@ p{
 }
 /*barra de navegacion*/
 nav{
-    background-color:rgb(49, 26, 255);
+    background-color:rgb(24, 26, 133);
+}
+.link-body-emphasis{
+    color: #e4e4e4;
 }
 nav a{
     border: #000 1px;
 }
 .categ{
-    background-color: #00000000;
+    color: #e4e4e4;
+    background-color:#00000000;
     border: #00000000;
 }
 .navbar{
     padding: 2rem;
-    background-color: rgb(49, 26, 255);
+    background-color: rgb(24, 26, 133);
     height: 70px;
 }
 .navbar-collapse{
@@ -52,7 +56,7 @@ nav a{
     align-items: end;
 }
 .nav-item i{
-    color: #000;
+    color: #e4e4e4;
     font-size: 30px;
     padding: 5px;
     margin: 6px;
@@ -65,10 +69,10 @@ nav a{
     -moz-transition: all 1s step-end;
     -ms-transition: all 1s step-end;
     -o-transition: all 1s step-end;
-    -webkit-border-radius: 2%;
-    -moz-border-radius: 2%;
-    -ms-border-radius: 2%;
-    -o-border-radius: 2%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .dropdown-toggle{
 color: rgba(0, 0, 0, 0.384);
@@ -291,7 +295,7 @@ color: rgba(0, 0, 0, 0.384);
     }
     .navbar{
         padding: 2rem;
-        background-color: rgb(49, 26, 255);
+       
         height: auto;
     }
     .experiencia .columna{
@@ -305,6 +309,10 @@ color: rgba(0, 0, 0, 0.384);
 
 
 @media screen  and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+
     .vistas-mini{
         display: none;
     }

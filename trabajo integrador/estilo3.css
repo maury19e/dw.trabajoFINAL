@@ -1,0 +1,332 @@
+/*estilos generales*/
+body{
+    background-color:rgb(219, 219, 219);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color: white;
+}
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+.seccion-oscura{
+    color: white;
+    background-color:rgb(10, 10, 35);
+}
+.envio{
+    font-size: 20px;
+    text-align: center;
+
+    color: #00a650;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.seccion-precio{
+    text-align: center;
+    color: #000000;
+    font-size:25px;
+    padding: 15px 0;
+    font-weight: bold;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.seccion-texto{
+    font-size: 1.2rem;
+
+}
+.section-clara{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*barra de navegacion*/
+nav{
+    background-color:rgb(24, 26, 133);
+}
+.link-body-emphasis{
+    color: #e4e4e4;
+}
+nav a{
+    border: #000 1px;
+}
+.categ{
+    color: #e4e4e4;
+    background-color:#00000000;
+    border: #00000000;
+}
+.navbar{
+    padding: 2rem;
+    background-color: rgb(24, 26, 133);
+    height: 70px;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.buscador{
+    align-items: center;
+    width: 440px;
+    background-color: white;
+    }
+.buscador input{
+    background-color: white;
+    border: 0;
+}
+.navbar-nav{
+    align-items: end;
+}
+.nav-item i{
+    color: #e4e4e4;
+    font-size: 30px;
+    padding: 5px;
+    margin: 6px;
+}
+.dropdown-menu{
+    border-radius: 2%;
+    background-color: rgba(255, 255, 255);
+    transition: all 1s step-end;
+    -webkit-transition: all 1s step-end;
+    -moz-transition: all 1s step-end;
+    -ms-transition: all 1s step-end;
+    -o-transition: all 1s step-end;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.dropdown-toggle{
+color: rgba(0, 0, 0, 0.384);
+}
+.footer{
+    margin: 0;
+    padding: 15px;
+}
+@media screen and (min-width:767px){
+    .icon{
+        display: none;
+    }
+    .descri-superior{
+        width: 300px;
+    }
+    .d-grid button{
+        width: 295px;
+    }
+    #state{
+        width: 295px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .d-grid button{
+        width: 185px;
+    }
+    #state{
+        width: 185px;
+    }
+    navbar-brand {
+        display: none;
+    }
+    .buscador{
+        width: 300px;
+        margin-block: 20px;
+    }
+    .navbar{
+        padding: 2rem;
+       
+        height: auto;
+    }
+    .experiencia .columna{
+        border: 0;
+    }
+    .categ{
+        padding-top:7px ;
+
+    }
+}
+@media screen  and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.card-vistas{
+    align-items:center;
+}
+.ver-mas{
+    margin-bottom: 15px;
+    margin-top: 0%;
+}
+.card{
+    align-items: start;
+    border: #000;
+    width: 840px;
+    
+}
+.col-imag{
+    margin-left:10px;
+    width: 144px;
+    height: 165px;
+    align-items:center;
+}
+.col-imag img{
+    margin-top: 25px;
+    padding: auto;
+}
+.col-text{    
+    width: 500px;
+    height: 100%;
+}
+.card-precio{
+    font-size: 15px;
+    color: #00a650;
+}
+.card-body{
+    width: 100%;
+    height: 100%;
+}
+.card-body .card-title{
+    
+    font-size: 23px;   
+}
+.card-body .card-text{
+    font-size: 20px;
+    width: 100%;
+}
+.seccion-precio{
+text-align: start;
+padding: 0%;
+font-size: 23px;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.datos{
+    padding: 15px;
+}
+.envio{
+    text-align: start;
+}
+
+/*filtros*/
+.list-group{
+    width: auto;
+    margin-top: 10px;
+}
+.filtros{
+    margin-left: 30px;
+    padding: 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.cararte{
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.resultados{
+    font-size: 15px;
+}
+.cararte-contenedor{
+    padding-left: 15px;
+}
+.cararte-co{
+    color: #6e6e6e;
+    margin-bottom:0px;
+
+}
+.ordenar{
+    
+    margin-top: 13px;
+}
+.dropdown button{
+    border-radius: 6%;
+    background-color: rgb(24, 26, 133);
+    color: #e4e4e4;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.page-item a{
+    color:rgb(24, 26, 133);
+}
+@media screen  and (max-width:767px) {
+    .filtros{
+        margin-left: 1px;}
+    
+    .list-group{
+        width:350px;
+    }
+        .vistas-mini{
+        display: none;
+    }
+    .ver-mas{
+        margin-top: 0%;
+    }
+    .card{
+        border: #000;
+        width: 92%;
+        
+    }
+    .col-imag{
+        padding-top: 20px;
+        width: 144px;
+        height: 165px;
+        align-items: center;
+    }   
+    .col-imag img{
+        margin-top: 15px;
+        padding: auto;
+    }
+    .col-text{    
+        width: 216px;
+        height: 100%;}
+    .card-precio{
+        font-size: 17px;
+        color: #00a650;
+    }
+    .card-body{
+        width: 100%;
+        height: 100%;
+    }
+    .card-body .card-title{
+        
+     font-size: 20px;   
+    }
+    .card-body .card-text{
+        font-size: 14px;
+        width: 100%;
+    }
+    .seccion-precio{
+    text-align: start;
+    padding: 0%;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .datos{
+        padding: 15px;
+    }
+    .envio{
+        text-align: start;
+    }
+    
+}
